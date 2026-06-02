@@ -25,7 +25,7 @@ h3 {
     height: 860px;
     display: flex;
     flex-direction: column;
-    background-image: url(../img/Header.png);
+    background-image: url(../img/Header.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -335,7 +335,7 @@ h3 {
     padding-top: 50px;
     width: 1600px;
     height: 800px;
-    background-image: url(../img/request-bckg.png);
+    background-image: url(../img/request-bckg.avif);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 50px;
@@ -363,6 +363,7 @@ h3 {
     margin-left: 200px;
     width: 402px;
     height: 590px;
+    border-radius: 65px;
 }
 
 .req-form {

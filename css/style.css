@@ -333,7 +333,6 @@ h3 {
 
 .request {
     padding-top: 50px;
-    width: 1600px;
     height: 800px;
     background-image: url(../img/request-bckg.avif);
     background-repeat: no-repeat;
@@ -515,4 +514,48 @@ footer {
     box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.39);
     color: black;
     background-color: white;
+}
+
+
+/*--------media--------*/
+
+@media (max-width: 1600px) {
+    .container {
+        width: 1300px;
+    }
+
+    .spcl-item-wrapper {
+        grid-template-columns: repeat(3, 270px);
+        grid-template-rows: repeat(2, 1fr 1fr);
+    }
+
+    .req-wrapper {
+        height: 70%;
+    }
+
+    .req-wrapper img {
+        margin-left: 100px;
+        width: 300px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        width: 900px;
+    }
+
+
+
+    .req-wrapper {
+        height: 40%;
+    }
+    .req-form {
+        margin: 20px 20px;
+        width: 100%;
+    }
+
+    .req-wrapper img {
+        display: none;
+    }
 }

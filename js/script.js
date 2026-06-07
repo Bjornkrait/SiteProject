@@ -14,9 +14,9 @@ const btnForm = document.querySelector(".form-b1")
 
 navMenu.classList.add('head-a-active')
 
-btnForm.addEventListener('click', () => {
-    alert("Спасибо, что выбрали нас!")
-})
+// btnForm.addEventListener('click', () => {
+//     alert("Спасибо, что выбрали нас!")
+// })
 
 btnNav.addEventListener('click', () => {
     if (!navMenu.classList.contains('head-a-first-active')) {

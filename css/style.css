@@ -1007,3 +1007,34 @@ footer {
     }
 
 }
+
+
+@media (max-width: 640px) {
+    .container {
+        width: 320px;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+    .header img {
+        width: 100px;
+        height: 15px;
+    }
+
+    .nav-btn {
+        left: 250px;
+    }
+
+    .head-content {
+        margin: 50 50;
+    }
+
+    .head-content-h1 {
+        width: 100%;
+    }
+    .head-content-h3{
+        display: none;
+    }
+
+}

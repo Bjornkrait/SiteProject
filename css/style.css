@@ -54,6 +54,9 @@ h3 {
 }
 
 .head-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 160px;
     height: 50px;
     border: none;
@@ -61,6 +64,8 @@ h3 {
     background-color: #C9453B;
     color: white;
     font-size: 18px;
+    text-decoration: none;
+
 }
 
 .head-btn:hover {
@@ -127,6 +132,13 @@ h3 {
     border: none;
     border-radius: 25px;
     box-shadow: 0px 0px 5px 0px gray;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.pop-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 .pop-item-p1 {
@@ -147,6 +159,10 @@ h3 {
 }
 
 /*-------------special------------*/
+
+.spcl-item-choose-btn {
+    display: none;
+}
 
 .special {
     display: flex;
@@ -524,6 +540,14 @@ footer {
         width: 1300px;
     }
 
+    .head {
+        height: 650px;
+    }
+
+    .head-content {
+        margin: auto 100px;
+    }
+
     .popular {
         height: 100%;
     }
@@ -536,6 +560,14 @@ footer {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .spcl-item:nth-child(1) {
+        opacity: 100%;
+    }
+
+    .spcl-item:nth-child(2) {
+        opacity: 100%;
     }
 
     .req-wrapper {
@@ -556,6 +588,148 @@ footer {
 
     .head {
         height: 100%;
+        width: 100%;
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .header {
+        margin: 0 0;
+        padding-left: 100px;
+        width: 80%;
+        justify-content: space-between;
+        gap: 30px;
+        background-size: contain;
+    }
+
+    .head-btn {
+        margin: 0 0;
+    }
+
+    .header img {
+        margin: 0 0;
+    }
+
+    .head-content {
+        margin: 160px 240px;
+        width: 80%;
+        justify-content: flex-start;
+        padding-left: 100px;
+    }
+
+    .head-content-h1 {
+        margin: 0 0;
+        width: 50%;
+        font-size: 50px;
+
+    }
+
+    .head-content-h3 {
+        text-align: left;
+    }
+
+    .head-a {
+        gap: 20px;
+    }
+
+
+
+    .pop-item {
+        width: 30%;
+        height: 420px;
+    }
+
+    .pop-item-p2 {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .pop-item-p1 {
+        margin: 10px auto;
+        width: 200px;
+    }
+
+    .spcl-svg {
+        display: none;
+    }
+
+    .spcl-item-wrapper {
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        overflow: hidden;
+        height: 400px;
+        width: 900px;
+
+    }
+
+    .spcl-item {
+        display: none;
+        width: 100%;
+    }
+
+    .spcl-item-show {
+        margin: 0 0;
+        display: grid;
+        grid-template-columns: 600px 1fr;
+        align-items: center;
+        animation: showing 1s;
+    }
+
+
+
+    @keyframes showing {
+        0% {
+            opacity: 0%;
+        }
+
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    .spcl-item-text {
+        margin: 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+
+    }
+
+    .spcl-item-choose-btn {
+        margin: 0 auto;
+        display: flex;
+        height: 50px;
+        gap: 10px
+    }
+
+    .spcl-btn {
+        width: 90px;
+        border-radius: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #C9453B;
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .spcl-btn:hover {
+        border: none;
+        box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.39);
+        color: black;
+        background-color: white;
+    }
+
+    .spcl-btn:disabled,
+    .spcl-btn:disabled:hover {
+        background-color: gray;
+        color: white;
     }
 
     .news-items-wrapper {
@@ -573,31 +747,8 @@ footer {
         border: none;
         border-radius: 25px;
         box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.39);
-        
+
     }
-
-    .news-items-wrapper img {}
-
-
-    .header {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .head-content {
-        margin: 20px 0;
-        width: 900px;
-    }
-
-    .head-content-h1 {
-        font-size: 30px;
-    }
-
-    .head-content-h3 {
-        text-align: center;
-        margin: 0 auto;
-    }
-
 
 
     .news-items-wrapper img {

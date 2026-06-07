@@ -994,8 +994,6 @@ footer {
         width: 90%;
     }
 
-    .spcl-item img {}
-
     .request {
         margin-top: 50px;
         background-image: none;
@@ -1033,7 +1031,6 @@ footer {
         justify-content: start;
     }
 
-    .header {}
 
     .header img {
         width: 100px;

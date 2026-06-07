@@ -719,11 +719,8 @@ footer {
 
     .spcl-item-wrapper {
         margin: 0 auto;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 30px;
-        overflow: hidden;
         height: 400px;
         width: 900px;
 
@@ -951,7 +948,62 @@ footer {
         width: 640px;
     }
 
-    .nav-btn {
-        left: 550px;
+    .head {
+        background-size: auto;
     }
+
+    .nav-btn {
+        left: 570px;
+    }
+
+    .popular {
+        height: 100%;
+    }
+
+    .popular h2,
+    .popular h3 {
+        width: 80%;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .spcl-item-wrapper {
+        width: 650px;
+        height: 600px;
+    }
+
+    .spcl-item-show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spcl-item img {
+        width: 90%;
+    }
+
+    .spcl-item img {}
+
+    .request {
+        margin-top: 50px;
+        background-image: none;
+        background-color: rgb(23, 42, 62);
+    }
+
+    .request h2,
+    .request h3 {
+        text-align: center;
+    }
+
+    .pop-item-wrapper {
+        flex-direction: column;
+
+    }
+
+    .pop-item {
+        width: 300px;
+        height: 450px;
+    }
+
 }

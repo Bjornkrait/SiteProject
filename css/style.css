@@ -94,7 +94,7 @@ h3 {
     height: 860px;
     display: flex;
     flex-direction: column;
-    background-image: url(../img/Header.avif);
+    background-image: url(../img/header.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }

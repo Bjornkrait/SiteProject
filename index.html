@@ -258,10 +258,10 @@
             <div class="req-wrapper">
                 <img src="img/request.avif" alt="Будда">
                 <form class="req-form">
-                    <input class="form-i1 form" type="text" name="name" placeholder="Имя" required>
-                    <input class="form-i2 form" type="text" name="last-name" placeholder="Фамилия" required>
-                    <input class="form-i3 form" type="email" name="email" placeholder="Email" required>
-                    <select class="form-s1 form" name="programm" required>
+                    <input aria-label="Имя" class="form-i1 form" type="text" name="name" placeholder="Имя" required>
+                    <input aria-label="Фамилия" class="form-i2 form" type="text" name="last-name" placeholder="Фамилия" required>
+                    <input aria-label="Имеил" class="form-i3 form" type="email" name="email" placeholder="Email" required>
+                    <select aria-label="Программа" class="form-s1 form" name="programm" required>
                         <option class="form-opt-dis" selected disabled value="">Выберите программу</option>
                         <option value="">Статуя Свободы</option>
                         <option value="">Храм Неба</option>
@@ -269,7 +269,7 @@
                         <option value="">Долина Саджек</option>
                         <option value="">Замок Осака</option>
                     </select>
-                    <button type="submit" class="form-b1">Отправить</button>
+                    <button aria-label="Отправить" type="submit" class="form-b1">Отправить</button>
                 </form>
             </div>
         </div>

@@ -1026,6 +1026,10 @@ footer {
         height: 450px;
     }
 
+
+    .head-a a:nth-child(3) {
+        display: none;
+    }
 }
 
 @media (max-width: 640px) {
@@ -1123,4 +1127,5 @@ footer {
     .footer-left p {
         display: none;
     }
+
 }
